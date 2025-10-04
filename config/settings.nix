@@ -7,7 +7,7 @@
       vim.fn.sign_define("diagnosticsigninfo", { text = " ", texthl = "diagnosticinfo", linehl = "", numhl = "" })
     '';
 
-    # feature that enhances the way Neovim loads and executes Lua modules, 
+    # feature that enhances the way Neovim loads and executes Lua modules,
     # offering improved performance and flexibility.
     luaLoader.enable = true;
 
@@ -89,15 +89,16 @@
         g.neovide_hide_mouse_when_typing = false
         g.neovide_refresh_rate = 165
         g.neovide_cursor_vfx_mode = "ripple"
-        g.neovide_cursor_animate_command_line = true
-        g.neovide_cursor_animate_in_insert_mode = true
+        g.neovide_cursor_animate_command_line = false
+        g.neovide_cursor_animate_in_insert_mode = false
         g.neovide_cursor_vfx_particle_lifetime = 5.0
         g.neovide_cursor_vfx_particle_density = 14.0
         g.neovide_cursor_vfx_particle_speed = 12.0
         g.neovide_transparency = 0.8
 
         -- Neovide Fonts
-        o.guifont = "MonoLisa Trial:Medium:h15"
+        -- o.guifont = "MonoLisa Trial:Medium:h15"
+        o.guifont = "Inconsolata Nerd Font Mono:Medium:h15"
         -- o.guifont = "CommitMono:Medium:h15"
         -- o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
         -- o.guifont = "FiraMono Nerd Font:Medium:h14"

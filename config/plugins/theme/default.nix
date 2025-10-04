@@ -1,6 +1,6 @@
 {
   colorschemes = {
-    catppuccin = {
+    gruvbox = {
       enable = true;
       settings = {
         background = {
@@ -8,7 +8,7 @@
           dark = "mocha";
         };
         flavour = "macchiato"; # “latte”, “mocha”, “frappe”, “macchiato”, “auto”
-        transparent_background = true;
+        transparent_background = false;
         integrations = {
           cmp = true;
           flash = true;

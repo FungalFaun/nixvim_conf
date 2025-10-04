@@ -4,7 +4,6 @@
     mini = {
       enable = true;
       modules = {
-        ai = { };
         icons = { };
         comment = {
           options = {
@@ -14,9 +13,9 @@
           };
         };
         # Highlight word under cursor
-        cursorword = {
-          delay = 0;
-        };
+        #cursorword = {
+        #  delay = 0;
+        #};
 
         snippets = {
           snippets = {

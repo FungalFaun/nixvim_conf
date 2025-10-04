@@ -2,7 +2,7 @@
   autoGroups = {
     # highlight_yank = { };
     vim_enter = { };
-    indentscope = { };
+    # indentscope = { };
     # restore_cursor = { };
   };
 
